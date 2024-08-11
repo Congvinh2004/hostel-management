@@ -1,0 +1,112 @@
+.container-body {
+    border: 1px solid yellow;
+    height: 100%;
+
+
+    .manage-motel {
+        width : 100%;
+        height: 25%;
+        border: 1px solid red;
+
+        // overflow: scroll;
+
+        .container {
+
+            .row {
+                padding-top: 20px;
+
+                .btn-search {
+                    margin: 10px 0 0 10px;
+
+                    button {
+                        outline         : none;
+                        border          : none;
+                        border-radius   : 3px;
+                        min-width       : 50px;
+                        min-height      : 30px;
+                        color           : #FFFFFF;
+                        font-size       : 12px;
+                        background-color: blue;
+                        min-width       : 80px;
+
+                        i {
+                            margin-right: 5px;
+                        }
+
+                        &:hover {
+                            opacity: 0.8;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    .detail-infor-motel {
+        background-color: #FFFFFF;
+        border          : 1px solid blueviolet;
+        margin          : 10px;
+
+
+        .infor-motel {
+            border: 1px solid rgb(8, 109, 58);
+            height: 60px;
+        }
+
+        .list-room {
+            padding  : 10px;
+            display  : flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .footer {
+        background-color: #F7F7F7;
+        padding         : 20px 0;
+        text-align      : center;
+        border-top      : 1px solid #e7e7e7;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin   : auto;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .footer-content {
+        display        : flex;
+        justify-content: space-around;
+        flex-wrap      : wrap;
+    }
+
+    .footer-section h5 {
+        margin-bottom: 10px;
+    }
+
+
+    .footer-section a {
+        margin         : 5px 5px;
+        color          : #333;
+        text-decoration: none;
+    }
+
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
+
+    .fab {
+        width       : 24px;
+        margin-right: 2px;
+    }
+
+    .footer-copyright {
+        margin-top: 20px;
+        font-size : 14px;
+        color     : #777;
+    }
+}

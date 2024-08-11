@@ -1,0 +1,24 @@
+.home-container {
+    display  : flex;
+    max-width: 100%;
+    border   : 1px solid red;
+    margin   : 0;
+    padding  : 0;
+    height   : 100vh;
+
+    .content-left {
+        width: 18%;
+    }
+
+    .content-right {
+
+        width              : 82%;
+        background-color   : #F7F7F7;
+        // padding         : 10px;
+
+
+
+    }
+
+
+}
