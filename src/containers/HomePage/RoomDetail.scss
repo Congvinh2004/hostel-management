@@ -106,11 +106,20 @@
             background-color: #F0AD4E;
             margin-right    : 5px;
 
+            i {
+                margin-right: 3px;
+            }
         }
 
         .delete-room {
             background-color: #D9534F;
+
+            i {
+                margin-right: 3px;
+            }
+
         }
+
 
         button {
             outline      : none;

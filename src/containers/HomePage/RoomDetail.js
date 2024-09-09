@@ -60,8 +60,8 @@ class RoomDetail extends Component {
                         </div>
                     </div>
                     <div className='room-footer'>
-                        <button className='edit-infor-room'>Chỉnh sửa</button>
-                        <button className='delete-room'>Xóa</button>
+                        <button className='edit-infor-room'><i className="fas fa-edit" style={{ color: "#FFFFFF" }}></i>Chỉnh sửa</button>
+                        <button className='delete-room'><i className="fas fa-trash-alt" style={{ color: "#FFFFFF" }}></i>Xóa</button>
                     </div>
 
 
